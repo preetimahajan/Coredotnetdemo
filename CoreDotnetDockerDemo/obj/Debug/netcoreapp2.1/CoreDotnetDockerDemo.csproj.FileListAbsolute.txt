@@ -1,0 +1,3 @@
+C:\Users\preeti.a.mahajan\source\repos\CoreDotnetDockerDemo\CoreDotnetDockerDemo\obj\Debug\netcoreapp2.1\CoreDotnetDockerDemo.csproj.CoreCompileInputs.cache
+C:\Users\preeti.a.mahajan\source\repos\CoreDotnetDockerDemo\CoreDotnetDockerDemo\obj\Debug\netcoreapp2.1\CoreDotnetDockerDemo.AssemblyInfoInputs.cache
+C:\Users\preeti.a.mahajan\source\repos\CoreDotnetDockerDemo\CoreDotnetDockerDemo\obj\Debug\netcoreapp2.1\CoreDotnetDockerDemo.AssemblyInfo.cs
