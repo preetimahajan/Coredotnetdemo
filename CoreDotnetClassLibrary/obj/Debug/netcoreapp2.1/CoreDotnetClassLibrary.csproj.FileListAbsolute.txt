@@ -1,0 +1,8 @@
+C:\Users\preeti.a.mahajan\source\repos\CoreDotnetDockerDemo\CoreDotnetClassLibrary\bin\Debug\netcoreapp2.1\CoreDotnetClassLibrary.deps.json
+C:\Users\preeti.a.mahajan\source\repos\CoreDotnetDockerDemo\CoreDotnetClassLibrary\bin\Debug\netcoreapp2.1\CoreDotnetClassLibrary.dll
+C:\Users\preeti.a.mahajan\source\repos\CoreDotnetDockerDemo\CoreDotnetClassLibrary\bin\Debug\netcoreapp2.1\CoreDotnetClassLibrary.pdb
+C:\Users\preeti.a.mahajan\source\repos\CoreDotnetDockerDemo\CoreDotnetClassLibrary\obj\Debug\netcoreapp2.1\CoreDotnetClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\preeti.a.mahajan\source\repos\CoreDotnetDockerDemo\CoreDotnetClassLibrary\obj\Debug\netcoreapp2.1\CoreDotnetClassLibrary.AssemblyInfoInputs.cache
+C:\Users\preeti.a.mahajan\source\repos\CoreDotnetDockerDemo\CoreDotnetClassLibrary\obj\Debug\netcoreapp2.1\CoreDotnetClassLibrary.AssemblyInfo.cs
+C:\Users\preeti.a.mahajan\source\repos\CoreDotnetDockerDemo\CoreDotnetClassLibrary\obj\Debug\netcoreapp2.1\CoreDotnetClassLibrary.dll
+C:\Users\preeti.a.mahajan\source\repos\CoreDotnetDockerDemo\CoreDotnetClassLibrary\obj\Debug\netcoreapp2.1\CoreDotnetClassLibrary.pdb

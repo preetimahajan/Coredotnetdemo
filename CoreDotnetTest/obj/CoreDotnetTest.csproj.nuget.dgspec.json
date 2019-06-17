@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\preeti.a.mahajan\\source\\repos\\CoreDotnetDockerDemo\\CoreDotnetDockerDemo\\CoreDotnetDockerDemo.csproj": {}
+    "C:\\Users\\preeti.a.mahajan\\source\\repos\\CoreDotnetDockerDemo\\CoreDotnetTest\\CoreDotnetTest.csproj": {}
   },
   "projects": {
     "C:\\Users\\preeti.a.mahajan\\source\\repos\\CoreDotnetDockerDemo\\CoreDotnetClassLibrary\\CoreDotnetClassLibrary.csproj": {
@@ -122,6 +122,76 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.4.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\preeti.a.mahajan\\source\\repos\\CoreDotnetDockerDemo\\CoreDotnetTest\\CoreDotnetTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\preeti.a.mahajan\\source\\repos\\CoreDotnetDockerDemo\\CoreDotnetTest\\CoreDotnetTest.csproj",
+        "projectName": "CoreDotnetTest",
+        "projectPath": "C:\\Users\\preeti.a.mahajan\\source\\repos\\CoreDotnetDockerDemo\\CoreDotnetTest\\CoreDotnetTest.csproj",
+        "packagesPath": "C:\\Users\\preeti.a.mahajan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\preeti.a.mahajan\\source\\repos\\CoreDotnetDockerDemo\\CoreDotnetTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\preeti.a.mahajan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://idc-ava-devops-capability.pkgs.visualstudio.com/_packaging/DemoFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\preeti.a.mahajan\\source\\repos\\CoreDotnetDockerDemo\\CoreDotnetDockerDemo\\CoreDotnetDockerDemo.csproj": {
+                "projectPath": "C:\\Users\\preeti.a.mahajan\\source\\repos\\CoreDotnetDockerDemo\\CoreDotnetDockerDemo\\CoreDotnetDockerDemo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
             }
           },
           "imports": [
