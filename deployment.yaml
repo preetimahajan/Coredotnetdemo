@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: coredotnetmultidockerdemo
+  labels:
+    app: coredotnetmultidockerdemo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: coredotnetmultidockerdemo
+  template:
+    metadata:
+      labels:
+        app: coredotnetmultidockerdemo
+    spec:
+      containers:
+        - name: #{ContainerName}#
+          image: #{ContainerName}#.azurecr.io/#{RepositoryName}#:#{Build.BuildId}#  
+          imagePullPolicy: Always      
+          imagePullSecrets:
+            - name: #{PullSecretKey}#
+          ports:
+            - name: http
+              containerPort: 89
+              protocol: TCP
+          nodeSelector:
+            beta.kubernetes.io/os: windows
+            kubernetes.io/role: agent
+            type: virtual-kubelet
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    k8s-app: coredotnetmultidockerdemo
+  name: coredotnetmultidockerdemo-loadbalancer
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+     k8s-app: coredotnetmultidockerdemo
+  app: coredotnetmultidockerdemo
