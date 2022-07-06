@@ -25,6 +25,5 @@ jobs:
           repository: ${{ secrets.repository }}
           image: image1
           folder: .
-          git_access_token: ${{ secrets.git_access_token }}
           dockerfile: Dockerfile
           branch: master
