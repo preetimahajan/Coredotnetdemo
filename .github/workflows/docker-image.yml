@@ -53,7 +53,8 @@ jobs:
           tenant: ${{ secrets.tenant }}
           registry: ${{ secrets.registry }}
           repository: ${{ secrets.repository }}
-          image: ${{github.run_id}}
+          image: demoimage
+          tag: ${{github.run_id}}
           git_access_token: ${{ secrets.git_access_token }}
           dockerfile: Dockerfile
           branch: master
