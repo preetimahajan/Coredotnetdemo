@@ -24,6 +24,5 @@ jobs:
           registry: ${{ secrets.registry }}
           repository: ${{ secrets.repository }}
           image: image1
-          folder: .
           dockerfile: Dockerfile
           branch: master
