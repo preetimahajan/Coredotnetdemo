@@ -15,8 +15,8 @@ spec:
         app: coredotnetmultidockerdemo
     spec:
       containers:
-        - name: #{ContainerName}#
-          image: #{ContainerName}#.azurecr.io/#{RepositoryName}#:#{Build.BuildId}#  
+        - name: githubdemo
+          image: githubactionspov.azurecr.io/githubdemo:12
           imagePullPolicy: Always      
           imagePullSecrets:
             - name: #{PullSecretKey}#
