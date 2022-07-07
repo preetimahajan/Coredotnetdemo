@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: githubdemo
-          image: githubactionspov.azurecr.io/githubdemo:12
+          image: githubactionspov.azurecr.io/githubdemo/demoimage:22
           imagePullPolicy: Always  
           ports:
             - name: http
