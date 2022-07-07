@@ -7,7 +7,7 @@ on:
     branches: [ "master" ]
 env:
   AZURE_CONTAINER_REGISTRY: "githubactionspov"
-  CONTAINER_NAME: "githubdemo"
+  CONTAINER_NAME: "githubdemo/demoimage"
   RESOURCE_GROUP: "GithubDemo"
   CLUSTER_NAME: "aksdemogithub"
   IMAGE_PULL_SECRET_NAME: "githubdemosecret"
