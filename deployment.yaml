@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
         - name: githubdemo
-          image: githubactionspov.azurecr.io/githubdemo/demoimage:22
+          image: githubactionspov.azurecr.io/githubdemo/demoimage:23
+          command: ["printenv"]
           imagePullPolicy: Always  
           ports:
             - name: http
