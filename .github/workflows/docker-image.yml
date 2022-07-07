@@ -75,11 +75,9 @@ jobs:
     steps:
     # Logs in with your Azure credentials
     - name: Azure login
-      uses: azure/login@v1.4.3
+      uses: Azure/login@v1
       with:
-        client-id: ${{ secrets.service_principal }}
-        tenant-id: ${{ secrets.tenant }}
-        subscription-id: ${{ secrets.subscription_id }}
+        creds: '{"clientId":"${{ secrets.service_principal }}","clientSecret":"${{ secrets.service_principal_password }}","subscriptionId":"${{ secrets.subscription_id }}","tenantId":"${{ secrets.tenant }}"}'
       
     # Retrieves your Azure Kubernetes Service cluster's kubeconfig file
     - name: Get K8s context
@@ -122,11 +120,9 @@ jobs:
     
     # Logs in with your Azure credentials
     - name: Azure login
-      uses: azure/login@v1.4.3
+      uses: Azure/login@v1
       with:
-        client-id: ${{ secrets.service_principal }}
-        tenant-id: ${{ secrets.tenant }}
-        subscription-id: ${{ secrets.subscription_id }}
+        creds: '{"clientId":"${{ secrets.service_principal }}","clientSecret":"${{ secrets.service_principal_password }}","subscriptionId":"${{ secrets.subscription_id }}","tenantId":"${{ secrets.tenant }}"}'
       
     # Retrieves your Azure Kubernetes Service cluster's kubeconfig file
     - name: Get K8s context
