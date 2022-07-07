@@ -10,7 +10,7 @@ env:
   CONTAINER_NAME: "githubdemo"
   RESOURCE_GROUP: "GithubDemo"
   CLUSTER_NAME: "aksdemogithub"
-  IMAGE_PULL_SECRET_NAME: "GithubDemoSecret"
+  IMAGE_PULL_SECRET_NAME: "githubdemosecret"
   DEPLOYMENT_MANIFEST_PATH: 'deployment.yaml'
   
 jobs:
